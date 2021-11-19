@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 98%;
+	background-color: #440002;
+	margin:2%;
+	font-size: 1em; 
+	display: grid;
+	min-height: 90vh;
+	grid-template-rows: auto 1fr auto;
+	align-items: center;
+	justify-content: center;
+}
+
+section{
+	background-color: grey;
+	margin-top: 1%;
+}
+
+p, h2{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: white;
+}	
+	
+form{
+	text-align: left;
+}
+
+label{
+	display: block;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.btn{
+	margin-left: 40%;
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	border-radius: 5%;
+	margin-bottom: 5px; 
+}
+
+.btn:hover{
+	background: red;
+}
+
+footer{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
